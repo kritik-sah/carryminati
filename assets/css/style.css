@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+*{
+    margin:0px;
+    padding: 0px;
+    font: 1em Robot;
+    color: rgba(255, 255, 255, 0.788);
+}
+body{
+    position: sticky;
+    background: url("../../img/bg.png");
+    background-color: rgb(15, 15, 15);
+    z-index: -10;
+}
+.hero{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    z-index: -1;
+    background: url("../../img/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.section{
+    position: relative;
+    top: 95vh;
+}
+#posts{
+    margin: auto;
+}
+#posts div{
+    position: relative;
+    top: 10px;
+    margin: 20px;
+    padding: 10px;
+    margin: auto;
+
+}
+.maillink{
+    text-decoration:none ;
+    color: aqua;
+}
+.maillink:hover{
+    color: #0dcaf0;
+}
