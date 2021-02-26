@@ -23,6 +23,13 @@ body{
     background-attachment: fixed;
     background-position: center;
 }
+.herocard{
+    
+    margin: 2% auto;
+    
+
+
+}
 .section{
     position: relative;
     top: 95vh;
@@ -44,4 +51,7 @@ body{
 }
 .maillink:hover{
     color: #0dcaf0;
+}
+.spacer div{
+  padding-left: 20px !important;
 }
