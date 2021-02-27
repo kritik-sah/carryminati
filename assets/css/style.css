@@ -54,7 +54,7 @@ margin: 1px;
         display: inline-block;
     }
     #posts div{
-        margin: auto;
+        margin: 20px auto;
         padding: 10px;
 }
 }
@@ -67,4 +67,26 @@ margin: 1px;
 }
 .spacer div{
   padding-left: 20px;
+}
+.space{
+height: 10px;
+padding: 2px;
+margin:1px;
+}
+.gallery{
+    display: flex;
+    justify-content: space-evenly;
+}
+.gallery div{
+    padding: 10px;
+    margin: 1px;
+}
+@media only screen and (max-width: 600px) {
+    .gallery{
+        display: inline-block;
+    }
+    .gallery div{
+        margin: 20px auto;
+        padding: 10px;
+}
 }
