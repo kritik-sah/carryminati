@@ -35,15 +35,28 @@ body{
     top: 95vh;
 }
 #posts{
-    margin: auto;
+
+    display: flex;
+    justify-content: space-evenly;
+    
 }
 #posts div{
-    position: relative;
-    top: 10px;
-    margin: 20px;
-    padding: 10px;
-    margin: auto;
+padding: 10px;
+margin: 1px;
+   
 
+
+
+}
+
+@media only screen and (max-width: 600px) {
+    #posts{
+        display: inline-block;
+    }
+    #posts div{
+        margin: auto;
+        padding: 10px;
+}
 }
 .maillink{
     text-decoration:none ;
@@ -53,5 +66,5 @@ body{
     color: #0dcaf0;
 }
 .spacer div{
-  padding-left: 20px !important;
+  padding-left: 20px;
 }
